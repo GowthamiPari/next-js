@@ -1,0 +1,37 @@
+{
+    "passesAndFails": [
+        {
+            "name":"Features",
+           "data":{
+            "Chart":"3",
+            "Status":{
+                "Pass": "Passed",
+                "Fail":"Failed"
+            },
+            "Progress":{
+            "Passed": "100.00%",
+            "Failed": "0.00%"
+            }}
+        },
+        {
+            "name":"Scenarios",
+            "data":{
+            "Chart":"52",
+            "Status":{
+                "Pass": "Passed",
+                "Fail":"Failed"
+            },
+            "Progress":{
+            "Passed": "100.00%",
+            "Failed": "0.00%"
+            }
+        }},
+        {
+        "name":" Test Info"
+        }
+    ],
+    "icons": {
+        "icon1":"faCheckCircle",
+        "icon2": "faExclamationCircle"
+    }
+}

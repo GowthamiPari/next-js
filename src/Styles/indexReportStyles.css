@@ -1,0 +1,57 @@
+.failed-color{
+    color: #E74C3C;
+    }
+    .fa {
+      display: inline-block;
+      font: normal normal normal 14px / 1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .passed-color {
+      color: #1ABB9C ;
+    }
+    .container {
+      display: flex;
+      box-radius: 5px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; /* Ensure boxes are evenly spaced */
+    }
+    
+    .index-box {
+      width: 300px; /* Adjust width as needed */
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    
+    .index-box h2 {
+      margin-bottom: 10px;
+    }
+    
+    .index-box-content {
+      display: flex;
+      align-items: center;
+    }
+    
+    .index-box-content .icon {
+      margin-right: 10px;
+    }
+    
+    .icon.passed-color {
+      color:#1ABB9C ; /* Example color for passed */
+    }
+    
+    .icon.failed-color {
+      color: #E74C3C; /* Example color for failed */
+    }
+    
